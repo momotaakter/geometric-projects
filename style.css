@@ -21,11 +21,34 @@ h1{
   text-transform: capitalize;
 }
 .container1{
-  background-color:rgba(0, 0, 0, 0.151);
+  background-color:rgba(0, 0, 0, 0.048);
   margin:20px;
   padding:17px;
   border-radius:10px;
 }
 p{
   text-transform: capitalize;
+  line-height:0px;
+  font-weight: bold;
 }
+input{
+ margin-bottom:7px;
+ background-color:rgba(255, 255, 255, 0.658);
+ border:none;
+ padding:5px;
+}
+
+#img-container1{
+  background-color:#FBBCED;
+}
+#img-container2{
+  background-color:#69C7F0;
+}
+button{
+  background-color:#1090D8;
+  color:white;
+  padding:5px 25px;
+  text-transform: capitalize;
+  border:none;
+}
+
