@@ -12,8 +12,8 @@
             <div id="img-container1" class="container1">
     <img src="images/triangle.png">
     <h1>triangle</h1>
-<p>area(a)=0.5 * b * h</p>
-<span>Area=<span id="display-id">c<sup>m2</sup></span>
+<p id="display-id">area(a)=0.5 * b * h</p>
+
 
    <input id="calculate-text" type="text"placeholder="b"size="20"> <br>
    <input id="calculate-text2" type="text"placeholder="h"> <br>
@@ -32,8 +32,8 @@
 <div class="container1">
     <img src="images/rectangle.png">
     <h1>rectangle</h1>
-<p>area(a)=w*l</p>
-<span>Area= </span><span id="display-idtwo"> w*l</span>
+<p id="display-idtwo">area(a)=w*l</p>
+
    <input id="calculate-textone" type="text"placeholder="w"> <br>
    <input id="calculate-text222" type="text"placeholder="l"> <br>
 
@@ -45,37 +45,50 @@
 
 
 
+<!--parallotiogram-->
 
 <div class="container1">
     <img src="images/parallelogram.png">
     <h1>parallelogram</h1>
-<p>area(a)= b * h</p>
-<span id="display-id2">Area=c<sup>m2</sup></span>
+    <p id="display-paralle">area(a)= b * h</p>
+     
 
-   <input id="calculate-text2" type="text"placeholder="b"> <br>
-   <input id="calculate-text22" type="text"placeholder="h"> <br>
+   <input id="calculate-paralle1" type="text"placeholder="b"> <br>
+   <input id="calculate-paralle2" type="text"placeholder="h"> <br>
 
-   <button onclick="myfunctionone()">calculate</button>
-
-
-
+   <button onclick="parallefunctionone()">calculate</button>
 </div>
 
 
 
 
 
-
+<!--rombus-->
 
 <div id="img-container2" class="container1">
-    <img src="images/triangle.png">
-    <h1>triangle</h1>
-<p>area(a)=0.5 * b * h</p>
-<span id="display-id">Area=c<sup>m2</sup></span>
-   <input id="calculate-text" type="text"placeholder="b"> <br>
-   <input id="calculate-text2" type="text"placeholder="h"> <br>
+    <img src="images/rhombus.png">
+    <h1>rhombus</h1>
+<p id="display-rid">area(a)=0.5 * d1 * d2</p>
 
-   <button onclick="myfunction()">calculate</button>
+   <input id="calculate-textr1" type="text"placeholder="d1"> <br>
+   <input id="calculate-text2r2" type="text"placeholder="d2"> <br>
+
+   <button onclick="rmyfunction()">calculate</button>
+
+</div>
+
+
+<!--pentagon-->
+<div class="container1">
+    <img src="images/pentagon.png">
+    <h1>pentagon</h1>
+<p id="pdisplay-rid">area(a)=(b * h)/2</p>
+
+
+   <input id="pcalculate-text" type="text"placeholder="b"> <br>
+   <input id="pcalculate-text2" type="text"placeholder="h"> <br>
+
+   <button onclick="pmyfunction()">calculate</button>
 
 </div>
 
@@ -83,35 +96,16 @@
 
 
 
-
-
-
+<!--ellipse-->
 <div class="container1">
-    <img src="images/triangle.png">
-    <h1>triangle</h1>
-<p>area(a)=0.5 * b * h</p>
-<span id="display-id">Area=c<sup>m2</sup></span>
-   <input id="calculate-text" type="text"placeholder="b"> <br>
-   <input id="calculate-text2" type="text"placeholder="h"> <br>
+    <img src="images/ellipse.png">
+    <h1>elliplse</h1>
+<p id='elidisplay-id'>area(a)=(0.5 * b * h)90</p>
 
-   <button onclick="myfunction()">calculate</button>
+   <input id="elicalculate-text" type="text"placeholder="b"> <br>
+   <input id="elicalculate-text2" type="text"placeholder="h"> <br>
 
-</div>
-
-
-
-
-
-
-<div class="container1">
-    <img src="images/triangle.png">
-    <h1>triangle</h1>
-<p>area(a)=0.5 * b * h</p>
-<span id="display-id">Area=c<sup>m2</sup></span>
-   <input id="calculate-text" type="text"placeholder="b"> <br>
-   <input id="calculate-text2" type="text"placeholder="h"> <br>
-
-   <button onclick="myfunction()">calculate</button>
+   <button onclick="elimyfunction()">calculate</button>
 
 </div>
 
