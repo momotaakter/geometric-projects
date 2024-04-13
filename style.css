@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  width:100%;
+  text-align: center;
+  margin-top:18px;
+
+}
+.img-container{
+  width:70%;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding-top:18px;
+
+ 
+}
+img{
+  width:150px;
+  height:130px;
+}
+h1{
+  text-transform: capitalize;
+}
+.container1{
+  background-color:rgba(0, 0, 0, 0.151);
+  margin:20px;
+  padding:17px;
+  border-radius:10px;
+}
+p{
+  text-transform: capitalize;
+}
